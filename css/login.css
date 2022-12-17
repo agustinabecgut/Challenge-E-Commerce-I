@@ -47,3 +47,9 @@
         padding: 2.5%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .login__form {
+        padding: 10% 30%;
+    }
+}

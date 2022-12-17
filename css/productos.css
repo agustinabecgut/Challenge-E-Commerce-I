@@ -149,12 +149,31 @@
 }
 
 @media screen and (min-width: 768px) {
-    .principal__enlace {
+    .principal__enlace {        
+        justify-content: space-around;
         padding: 2%;
         align-self: center;
     }
 
     .productos_card {
         width: 18%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .productos__lista {
+        padding: 0;
+    }
+
+    .productos_card {
+        margin: 0;
+        padding: 1%;
+        width: 14%;
+    }
+
+    .principal__enlace {
+        justify-content: space-around;
+        padding: 2%;
+        width: 15%;
     }
 }

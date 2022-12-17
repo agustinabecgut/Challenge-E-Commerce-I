@@ -75,3 +75,9 @@
     }
 
 }
+
+@media screen and (min-width: 1024px) {
+    .nuevoProducto__contenido {
+        padding: 3% 30%;
+    }
+}

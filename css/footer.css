@@ -93,3 +93,14 @@
         padding: 4%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .footer__btn {
+        padding: 2%;
+    }
+
+    .footer__info {
+        width: 96%;
+        padding: 2%;
+    }
+}
