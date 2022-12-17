@@ -1,0 +1,45 @@
+.nuevoProducto__contenido{
+    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    padding: 2%;
+}
+
+.nuevoProducto__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+}
+
+.nuevoProducto__titulo{
+    margin: 2% 0;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #464646;
+
+}
+
+.nuevoProducto__inputUrl, .nuevoProducto__inputCategoria, .nuevoProducto__inputNombre, .nuevoProducto__inputPrecio, .nuevoProducto__inputDescripcion{
+    padding: 4%;
+    margin: 1% 0;
+    border: none;
+    border-radius: 5px;
+    width: 92%;
+}
+
+.nuevoProducto__inputDescripcion{
+    padding-bottom: 20%;
+}
+
+.nuevoProducto__btn{
+    align-items: center;
+    background: #2A7AE4;
+    color: #EAF2FD;
+    border: none;
+    border-radius: 5px;
+    padding: 4%;
+    margin: 1% 0;
+    width: 100%;
+}

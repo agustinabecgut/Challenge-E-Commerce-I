@@ -1,72 +1,147 @@
-@media screen and (max-width: 360px) {
+.productos__contenido{
+    background: #E5E5E5;
+    padding: 2% 4%;
+    font-family: 'Roboto', sans-serif;
+}
 
-    .principal__contenido{
-        background: #E5E5E5;
-        padding: 2%;
-        font-family: 'Roboto', sans-serif;
-    }
+.productos__titulo-enlace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 0;
+}
 
-    .productos__box{
-        padding: 0.5%;
-        display: flex;
-        flex-direction: column;
-    }
+.principal__titulo{
+    margin: 2% 0;
+    margin-left: 2%;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #464646;
+}
 
-    .productos__titulo-enlace{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+.principal__enlace{
+    background: #2A7AE4;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    padding: 4%;
+    width: 20%;
+}
 
-    .productos__titulo{
-        margin: 2% 0;
-        margin-left: 2%;
-        font-weight: 700;
-        font-size: 1.5rem;
-        color: #464646;
-    } 
+.productos__lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+}
 
-    .productos__enlace{
-        padding: 2%;
-        font-weight: 700;
-        color: #2A7AE4;
-        text-decoration: none;
-        cursor: pointer;
-    }
+.productos_card{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+    padding: 2%;
+    width: 40%;
+}
 
-    .productos__lista{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 2%;
-    }
+.productos__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 150px;
+}
 
-    .productos_card{
-        display: flex;
-        flex-direction: column;
-        margin: 2% 0;
-        padding: 2%;
-        width: 40%;
-    }
+.productos__img.uno{
+    background: url(../assets/star-wars/star-wars1.jpg) no-repeat center / cover;
+}
 
-    .productos__nombre, .productos__precio{
-        margin: 4% 0;
-        margin-top: 6%;
-        font-weight: 500;
-        color: #464646;
-    }
+.productos__img.dos{
+    background: url(../assets/star-wars/star-wars2.png) no-repeat center / cover;
+}
 
-    .productos__precio{
-        font-weight: 700;
-    }
+.productos__img.tres{
+    background: url(../assets/star-wars/star-wars3.png) no-repeat center / cover;
+}
 
-    .productos__ver{
-        margin: 4% 0;
-        font-weight: 700;
-        color: #2A7AE4;
-        text-decoration: none;
-        cursor: pointer;
-    }
+.productos__img.cuatro{
+    background: url(../assets/star-wars/star-wars4.png) no-repeat center / cover
+}
 
+.productos__img.cinco{
+    background: url(../assets/star-wars/star-wars5.png) no-repeat center / cover;
+}
+
+.productos__img.seis{
+    background: url(../assets/star-wars/star-wars6.png) no-repeat center / cover;
+}
+
+.productos__img.siete{
+    background: url(../assets/consolas/consolas1.png) no-repeat center / cover;
+}
+
+.productos__img.ocho{
+    background: url(../assets/consolas/consolas2.png) no-repeat center / cover
+}
+
+.productos__img.nueve{
+    background: url(../assets/consolas/cosola3.png) no-repeat center / cover;
+}
+
+.productos__img.diez{
+    background: url(../assets/consolas/consolas4.png) no-repeat center / cover;
+}
+
+.productos__img.once{
+    background: url(../assets/consolas/consolas5.png) no-repeat center / cover;
+}
+
+.productos__img.doce{
+    background: url(../assets/consolas/consolas6.png) no-repeat center / cover
+}
+
+.productos__img.trece{
+    background: url(../assets/diversos/diversos1.png) no-repeat center / cover;
+}
+
+.productos__img.catorce{
+    background: url(../assets/diversos/diversos2.png) no-repeat center / cover;
+}
+
+.productos__img.quince{
+    background: url(../assets/diversos/diversos3.png) no-repeat center / cover;
+}
+
+.productos__img.dieciseis{
+    background: url(../assets/diversos/diversos4.png) no-repeat center / cover
+}
+
+.productos__img.diecisiete{
+    background: url(../assets/diversos/diversos5.png) no-repeat center / cover;
+}
+
+.productos__img.dieciocho{
+    background: url(../assets/diversos/diversos6.png) no-repeat center / cover
+}
+
+.productos__btn{
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: larger;
+    height: 20%;
+    cursor: pointer;
+}
+
+.productos__nombre, .productos__precio, .productos__numero{
+    margin: 4% 0;
+    margin-top: 6%;
+    font-weight: 500;
+    color: #464646;
+}
+
+.productos__precio{
+    font-weight: 700;
 }
