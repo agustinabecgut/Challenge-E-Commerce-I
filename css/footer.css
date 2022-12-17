@@ -41,7 +41,8 @@
     padding: 2% 0;
 }
 
-.footer__input-nombre, .footer__input-msj{
+.footer__input-nombre,
+.footer__input-msj {
     width: 93%;
     display: flex;
     flex-direction: column;
@@ -78,4 +79,17 @@
     font-size: small;
     font-weight: 300;
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__contenido {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer__info {
+        width: 92%;
+        padding: 4%;
+    }
 }

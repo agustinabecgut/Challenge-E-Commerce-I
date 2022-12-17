@@ -33,3 +33,28 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+@media screen and (min-width: 768px) {
+    .header__nav {
+        padding: 2.5%;
+    }
+
+    .header__img {
+        margin: 1.5%;
+        width: 20%;
+    }
+
+    .header__busqueda {
+        padding: 1%;
+    }
+
+    .header__busqueda {
+        order: 0;
+    }
+
+    .header__btn {
+        margin: 1.5%;
+        padding: 2%;
+    }
+
+}

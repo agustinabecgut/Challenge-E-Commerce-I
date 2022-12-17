@@ -67,3 +67,9 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+@media screen and (min-width: 768px) {
+    .principal_card {
+        width: 18%;
+    }
+}

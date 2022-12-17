@@ -1,4 +1,4 @@
-.banner__contenido{
+.banner__contenido {
     height: 192px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../assets/banner-image.png) no-repeat center / cover;
     display: flex;
@@ -8,21 +8,21 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.banner__titulo{
+.banner__titulo {
     font-weight: 700;
     font-size: 1.5rem;
     color: #FFFFFF;
     margin: 2% 0;
 }
 
-.banner__descripcion{
+.banner__descripcion {
     font-weight: 600;
     font-size: .85rem;
     line-height: 16px;
     color: #FFFFFF;
 }
 
-.banner__btn{
+.banner__btn {
     font-weight: 600;
     width: 40%;
     margin-top: 2%;
@@ -33,4 +33,21 @@
     text-decoration: none;
     text-align: center;
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__contenido {
+        padding: 3%;
+        padding-top: 5%;
+    }
+
+    .banner__titulo {
+        font-size: 2rem;
+    }
+
+    .banner__btn {
+        width: 20%;
+        padding: 2%;
+    }
+
 }

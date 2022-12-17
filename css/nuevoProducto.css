@@ -1,17 +1,17 @@
-.nuevoProducto__contenido{
+.nuevoProducto__contenido {
     background: #E5E5E5;
     font-family: 'Roboto', sans-serif;
     padding: 2%;
 }
 
-.nuevoProducto__form{
+.nuevoProducto__form {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 4%;
 }
 
-.nuevoProducto__titulo{
+.nuevoProducto__titulo {
     margin: 2% 0;
     margin-left: 2%;
     margin-top: 2%;
@@ -21,7 +21,11 @@
 
 }
 
-.nuevoProducto__inputUrl, .nuevoProducto__inputCategoria, .nuevoProducto__inputNombre, .nuevoProducto__inputPrecio, .nuevoProducto__inputDescripcion{
+.nuevoProducto__inputUrl,
+.nuevoProducto__inputCategoria,
+.nuevoProducto__inputNombre,
+.nuevoProducto__inputPrecio,
+.nuevoProducto__inputDescripcion {
     padding: 4%;
     margin: 1% 0;
     border: none;
@@ -29,11 +33,11 @@
     width: 92%;
 }
 
-.nuevoProducto__inputDescripcion{
+.nuevoProducto__inputDescripcion {
     padding-bottom: 20%;
 }
 
-.nuevoProducto__btn{
+.nuevoProducto__btn {
     align-items: center;
     background: #2A7AE4;
     color: #EAF2FD;
@@ -42,4 +46,32 @@
     padding: 4%;
     margin: 1% 0;
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .nuevoProducto__titulo {
+        margin-left: 4%;
+    }
+
+    .nuevoProducto__form {
+        padding: 2%;
+    }
+
+    .nuevoProducto__inputUrl,
+    .nuevoProducto__inputCategoria,
+    .nuevoProducto__inputNombre,
+    .nuevoProducto__inputPrecio,
+    .nuevoProducto__inputDescripcion {
+        padding: 2%;
+    }
+
+    .nuevoProducto__inputDescripcion {
+        padding-bottom: 10%;
+    }
+
+    .nuevoProducto__btn {
+        padding: 2%;
+        width: 96%;
+    }
+
 }
