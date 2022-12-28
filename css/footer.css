@@ -41,8 +41,13 @@
     padding: 2% 0;
 }
 
-.footer__input-nombre,
-.footer__input-msj {
+.input__contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input {
     width: 93%;
     display: flex;
     flex-direction: column;
@@ -51,6 +56,17 @@
     margin: 1% 0;
     border: none;
     border-radius: 5px;
+}
+
+.input--invalid {
+    border: solid 1px red;
+}
+
+.input-error{
+    color: red;
+    font-size: small;
+    padding: 1%;
+    padding-bottom: 2.5%;
 }
 
 .footer__btn {

@@ -1,0 +1,19 @@
+{
+  "name": "e-commerce_challenge-pt1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustinabecgut/Challenge-E-Commerce-I.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustinabecgut/Challenge-E-Commerce-I/issues"
+  },
+  "homepage": "https://github.com/agustinabecgut/Challenge-E-Commerce-I#readme",
+  "description": ""
+}

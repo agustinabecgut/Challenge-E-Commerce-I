@@ -209,8 +209,16 @@
                 </div>
                 <form action="" class="footer__form">
                     <h3 class="footer__form-titulo">Hable con nosotros</h3>
-                    <input type="text" class="footer__input-nombre" placeholder="Nombre">
-                    <input type="text" class="footer__input-msj" placeholder="Escribe tu mensaje">
+                    <div class="input__contenedor">
+                        <input type="text" class="input nombre" placeholder="Nombre" required minlength="3" maxlength="40"
+                            data-tipo="nombre">
+                        <span class="input-error"></span>
+                    </div>
+                    <div class="input__contenedor">
+                        <input type="text" class="input msj" placeholder="Mensaje" required
+                            minlength="50" maxlength="120" data-tipo="msj">
+                        <span class="input-error"></span>
+                    </div>
                     <button type="submit" class="footer__btn">Enviar mensaje</button>
                 </form>
             </div>
@@ -219,5 +227,6 @@
             </div>
         </div>
     </footer>
+    <script type="module" src="../js/app.js"></script>
 </body>
 </html>

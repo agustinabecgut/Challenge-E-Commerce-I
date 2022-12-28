@@ -10,6 +10,11 @@
     padding: 25% 12.5%;
 }
 
+.input__contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
 .login__titulo {
     align-self: center;
     margin-bottom: 4%;
@@ -18,13 +23,23 @@
     color: #464646;
 }
 
-.login__input-email,
-.login__input-password {
+.input {
     background: #FFFFFF;
     border-radius: 4px;
     border: none;
     padding: 3%;
     margin: 1% 0;
+}
+
+.input--invalid {
+    border: solid 1px red;
+}
+
+.input-error{
+    color: red;
+    font-size: small;
+    padding: 1%;
+    padding-bottom: 2.5%;
 }
 
 .login__btn {
